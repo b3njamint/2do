@@ -8,15 +8,19 @@ This is a React and Firebase tutorial. It is a todo list built in React with a l
 This is the initial welcome page.
 <br/><br/>
 <img width="778" alt="Screen Shot 2022-03-09 at 1 30 33 AM" src="https://user-images.githubusercontent.com/52147838/157386039-54a674c4-469d-4cfa-b6cd-8a7b2bcd507f.png">
+<br/>
 We start by registering an account. If we mess up and our emails or passwords do not match, then a popup is shown. In this case, the email is "email@email.com" but the confirm email is "email2@gmail.com", which do not match.
 <br/><br/>
 <img width="778" alt="Screen Shot 2022-03-09 at 1 32 06 AM" src="https://user-images.githubusercontent.com/52147838/157386283-a45f8d9e-c33e-4469-a892-2d00c485f77e.png">
+<br/>
 Once logged in, we can add as many tasks as we want. 
 <br/><br/>
 <img width="778" alt="Screen Shot 2022-03-09 at 1 32 24 AM" src="https://user-images.githubusercontent.com/52147838/157386455-0814e572-d043-4ae3-ad17-d3d3a1e7939f.png">
+<br/>
 If we log out and log back in, our todo list is still there! This way, many people can use this todo list and each person's changes will not affect others.
 <br/><br/>
 <img width="778" alt="Screen Shot 2022-03-09 at 1 39 26 AM" src="https://user-images.githubusercontent.com/52147838/157386359-8409b145-ec26-4617-935d-5353e096eeb5.png">
+<br/>
 We can also delete completed tasks.
 <br/><br/><br/>
 My next steps will be to use Express to write my own functions to retrieve, add, and delete from the database. 
