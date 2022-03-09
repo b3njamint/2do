@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+## What this repository is (vue tutorial? Firebase tutorial?) and specifically what it does.
+### a. So a bad readme would just say "this is a vue tutorial" while a good readme would say "this is a vue tutorial. In the tutorial, I create a website that lists recipes and sorts them by ingredients needed." b. Additionally, screenshots of your work is greatly appreciated if possible
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React and Firebase tutorial. It is a todo list built in React with a login system using Firebase Authentication, and stores user data in the Realtime Database.
 
-## Available Scripts
+<img width="778" alt="Screen Shot 2022-03-09 at 1 29 49 AM" src="https://user-images.githubusercontent.com/52147838/157386017-f4545b36-53f7-412d-b2dd-b7c6566ee8c4.png">
+This is the initial welcome page.
 
-In the project directory, you can run:
+<img width="778" alt="Screen Shot 2022-03-09 at 1 30 33 AM" src="https://user-images.githubusercontent.com/52147838/157386039-54a674c4-469d-4cfa-b6cd-8a7b2bcd507f.png">
+We start by registering an account. If we mess up and our emails or passwords do not match, then a popup is shown. In this case, the email is "email@email.com" but the confirm email is "email2@gmail.com", which do not match.
 
-### `npm start`
+<img width="778" alt="Screen Shot 2022-03-09 at 1 32 06 AM" src="https://user-images.githubusercontent.com/52147838/157386283-a45f8d9e-c33e-4469-a892-2d00c485f77e.png">
+Once logged in, we can add as many tasks as we want. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="778" alt="Screen Shot 2022-03-09 at 1 32 24 AM" src="https://user-images.githubusercontent.com/52147838/157386455-0814e572-d043-4ae3-ad17-d3d3a1e7939f.png">
+If we log out and log back in, our todo list is still there! This way, many people can use this todo list and each person's changes will not affect others.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="778" alt="Screen Shot 2022-03-09 at 1 39 26 AM" src="https://user-images.githubusercontent.com/52147838/157386359-8409b145-ec26-4617-935d-5353e096eeb5.png">
+We can also delete completed tasks.
 
-### `npm test`
+My next steps will be to use Express to write my own functions to retrieve, add, and delete from the database. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Why you are doing this tutorial (2-3 sentences will suffice)!
+I am doing this tutorial to learn the tech stack of Zing. With the completion of this tutorial, I am now able to contribute to the frontend tasks.
